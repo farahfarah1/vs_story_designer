@@ -1,6 +1,6 @@
 name: vs_story_designer
 description: This is a package created in the style of the instagram story creator, with which you can create images with images, texts, finger drawing.
-version: 2.2.3
+version: 2.2.4
 homepage:  https://github.com/VickySalunkhe/vs_story_designer
 
 environment:
@@ -19,7 +19,8 @@ dependencies:
   google_fonts: ^8.0.1
   image_gallery_saver_plus: ^4.0.1
 
-  vs_media_picker: ^1.0.4
+  vs_media_picker:
+    git: https://github.com/dharmik-dalwadi-seaflux/flutter_media_picker.git
 
   # painting
   perfect_freehand: ^2.3.2

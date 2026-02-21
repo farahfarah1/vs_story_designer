@@ -252,10 +252,10 @@ packages:
     dependency: transitive
     description:
       name: google_fonts
-      sha256: b1ac0fe2832c9cc95e5e88b57d627c5e68c223b9657f4b96e1487aa9098c7b82
+      sha256: db9df7a5898d894eeda4c78143f35c30a243558be439518972366880b80bf88e
       url: "https://pub.dev"
     source: hosted
-    version: "6.2.1"
+    version: "8.0.2"
   html:
     dependency: transitive
     description:
@@ -288,14 +288,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "4.5.4"
-  image_gallery_saver2:
-    dependency: transitive
-    description:
-      name: image_gallery_saver2
-      sha256: b46a6650ad95b98fc0b94825e462b4d92b21def5d9ac01f64609b2688fd5d31c
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.0.5"
   image_gallery_saver_plus:
     dependency: transitive
     description:
@@ -840,10 +832,11 @@ packages:
   vs_media_picker:
     dependency: transitive
     description:
-      name: vs_media_picker
-      sha256: eae98366d694b767eccc0117580c90c0c531d51604e860d2edd81fda8a5ebfa6
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: f8b7bf2e59cb7da09e95e2ece430212d060618a0
+      url: "https://github.com/dharmik-dalwadi-seaflux/flutter_media_picker.git"
+    source: git
     version: "1.0.4"
   vs_story_designer:
     dependency: "direct main"
@@ -851,7 +844,7 @@ packages:
       path: ".."
       relative: true
     source: path
-    version: "2.2.1"
+    version: "2.2.3"
   wakelock_plus:
     dependency: transitive
     description:
