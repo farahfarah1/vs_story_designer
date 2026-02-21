@@ -5,7 +5,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:fluttertoast/fluttertoast.dart';
-import 'package:image_gallery_saver2/image_gallery_saver.dart';
+import 'package:image_gallery_saver_plus2/image_gallery_saver_plus.dart';
 // import 'package:fluttertoast/fluttertoast.dart';
 // import 'package:image_gallery_saver/image_gallery_saver.dart';
 import 'package:photo_view/photo_view.dart';
@@ -423,7 +423,7 @@ class _MainViewState extends State<MainView> {
             setState(() {
               renderingNotifier.renderState = RenderState.saving;
             });
-            await ImageGallerySaver.saveFile(path['outPath'],
+            await ImageGallerySaverPlus.saveFile(path['outPath'],
                     name: "${DateTime.now()}")
                 .then((value) {
               if (value['isSuccess']) {
